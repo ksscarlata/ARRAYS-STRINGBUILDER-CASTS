@@ -42,3 +42,5 @@ namespace STRINGBUILDER
             Console.WriteLine(sb2.ToString());
             sb2.Remove(11, 7); //removes 7 characters beginning with 11th index
             Console.WriteLine(sb2.ToString());
+            
+            Console.ReadKey();
