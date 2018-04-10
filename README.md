@@ -43,4 +43,11 @@ namespace STRINGBUILDER
             sb2.Remove(11, 7); //removes 7 characters beginning with 11th index
             Console.WriteLine(sb2.ToString());
             
+            //CASTS
+            long num1 = 1234;
+            int num2 = (int)num1; //long cast to int (int)num1
+
+            Console.WriteLine("Original: {0}\nOriginal Type: {1}\nCast: {2}\n" +
+                "Cast Type: {3}", num1, num1.GetType() , num2, num2.GetType());
+
             Console.ReadKey();
